@@ -8,4 +8,4 @@ Credits to EdjeElectronics for the flattener function.
 
 https://user-images.githubusercontent.com/63108350/171954986-77d9d88e-0d7b-43d6-b1dc-cce7b0b8460e.mp4
 
-Note: the script may be influenced by different lighting conditions. The second parameter of the function cv2.threshold should be adapted using the best value from 0 to 255, in particul for the match_card function at line ...
+Note: the script may be influenced by different lighting conditions. The second parameter of the function cv2.threshold should be adapted using the best value from 0 to 255, in particul for the match_card function at line 115 of Card.py.
