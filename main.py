@@ -34,9 +34,7 @@ history,deck = Algorithm.create_deck(WIN,WIDTH,HEIGHT,SQUARE_SIZE)
 # Begin capturing frames
 while True:
     image = videostream.read()
-
     pre_proc = Cards.preprocess_image(image)
-
     cnts_sort, cnt_is_card = Cards.find_cards(pre_proc)
 
     if len(cnts_sort) != 0:
