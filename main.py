@@ -35,10 +35,8 @@ history,deck = Algorithm.create_deck(WIN,WIDTH,HEIGHT,SQUARE_SIZE)
 while True:
     image = videostream.read()
 
-    # Pre-process camera image (gray, blur, and threshold it)
     pre_proc = Cards.preprocess_image(image)
 
-    # Find and sort the contours of all cards in the image (query cards)
     cnts_sort, cnt_is_card = Cards.find_cards(pre_proc)
 
     if len(cnts_sort) != 0:
