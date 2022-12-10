@@ -6,9 +6,9 @@ from copy import deepcopy
 import random
 import pygame
 from PIL import Image
-import Cards
-import VideoStream
-import Algorithm
+from scripts import Cards
+from scripts import VideoStream
+from scripts import Algorithm
 
 
 IM_WIDTH = 1280
